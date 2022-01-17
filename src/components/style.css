@@ -1,0 +1,70 @@
+body{
+    background: linen;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#logout-btn {
+    display: none;
+}
+#signup-information{
+    display: none;
+}
+.title-layout{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 10px 0;
+}
+.title{
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+}
+
+.input-item{
+    font-size:larger;
+    margin: 0 5px 8px 0; 
+}
+.layout{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+.layout-row{
+    margin: 30px 0 0 0;
+}
+.birthday-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.birthday{
+    color:orange;
+    text-align: center;
+}
+.quotes{
+    color:brown;
+    text-align: center;
+}
+.author{
+    color:brown;
+    font-style: italic;
+    text-align: center;
+}
+#birthday-information{
+    margin: 0 50px;
+}
+.happy{
+    color:orange;
+    text-align: center;
+    font-weight: 900;
+}
+label{
+    text-align: right;
+    width: 80px;
+}
+.button-layout{
+    display: flex;
+    justify-content: flex-end;
+}
