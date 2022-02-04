@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BirthdayCalculate/static/css/main.d0f8c5d8.css",
-    "main.js": "/BirthdayCalculate/static/js/main.1ca30e65.js",
+    "main.js": "/BirthdayCalculate/static/js/main.a8b93384.js",
     "index.html": "/BirthdayCalculate/index.html",
     "main.d0f8c5d8.css.map": "/BirthdayCalculate/static/css/main.d0f8c5d8.css.map",
-    "main.1ca30e65.js.map": "/BirthdayCalculate/static/js/main.1ca30e65.js.map"
+    "main.a8b93384.js.map": "/BirthdayCalculate/static/js/main.a8b93384.js.map"
   },
   "entrypoints": [
     "static/css/main.d0f8c5d8.css",
-    "static/js/main.1ca30e65.js"
+    "static/js/main.a8b93384.js"
   ]
 }
