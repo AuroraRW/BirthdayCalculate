@@ -2,19 +2,15 @@ import React from 'react';
 import './style.css';
 
 
-class Button extends React.Component{
-    handleClick(){
-        this.props.onClick();
+export default function Button (props){
+    const handleClick = ()=>{
+        props.onClick();
     }
-    render(){
-        return(
-            <button className="btn btn-warning" 
-                    type={this.props.type} 
-                    name={this.props.name}
-                    onClick={()=>this.handleClick()}>{this.props.title}
-            </button>
-        )
-    }
+    return(
+        <button className="btn btn-warning" 
+                type={props.type} 
+                name={props.name}
+                onClick={handleClick}>{props.title}
+        </button>
+    )
 }
-
-export default Button;

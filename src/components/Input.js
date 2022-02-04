@@ -1,22 +1,18 @@
 import React from 'react';
 import './style.css';
 
-class Input extends React.Component{
-    updateParentState(e){
-        this.props.updateState(this.props.inputKey, e.target.value);
+export default function Input (props){
+    const updateParentState = (e)=>{
+        props.updateState(props.inputKey, e.target.value);
     }
-    render(){
-        return(
-            <div>
-                <label htmlFor={this.props.name} className="input-item">{this.props.title}  </label>
-                <input id={this.props.name} 
-                       type={this.props.type} 
-                       name={this.props.name} 
-                       placeholder={this.props.placeholder} 
-                       onChange = {(e)=>this.updateParentState(e)}/>
-            </div>
-        );
-    }
+    return(
+        <div>
+            <label htmlFor={props.name} className="input-item">{props.title}  </label>
+            <input id={props.name} 
+                    type={props.type} 
+                    name={props.name} 
+                    placeholder={props.placeholder} 
+                    onChange = {(e)=>updateParentState(e)}/>
+        </div>
+    );
 }
-
-export default Input;
