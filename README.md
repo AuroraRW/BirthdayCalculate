@@ -3,7 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Introduction
-This project is about a kind of birthday calculator. User can visit the web page to fill some information for signing up. Then log in to get how many days left to his/her birthday. If today is the birthday, there will be a "happy birthday" and quote shown. If today is not the birthday, there will be the number of days left to birthday shown. Have fun 😁 
+This project is about a kind of birthday calculator. User can visit the web page to fill some information for signing up. Then log in to get how many days left to his/her birthday. If today is the birthday, there will be a "happy birthday" and quote shown. If today is not the birthday, there will be the number of days left to birthday shown. 
+Have fun 😁 
 
 The project is created by two different ways. One branch is created using react class. Other branch is created using react hooks. The logic and functionaliy is the same.
 ### Scripts
